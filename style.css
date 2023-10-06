@@ -1,0 +1,195 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+.body {
+  background-color: black;
+}
+.pos-sticky {
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+.row {
+  box-shadow: -5px -3px 10px #8bb9e5, 5px 3px 10px #a9e3ff;
+  padding: 5px 20px;
+}
+.span {
+  color: rgb(0, 228, 249);
+  font-family: serif;
+  font-weight: bold;
+  font-size: 47px;
+}
+.bi {
+  margin-right: 5px;
+}
+.blue-link {
+  color: rgb(55, 255, 0);
+  font-weight: bold;
+  font-size: 23px;
+  font-family: serif;
+}
+.blue-link:hover {
+  color: rgb(55, 255, 0);
+}
+.index {
+  color: rgb(55, 255, 0);
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.index:hover {
+  color: rgb(55, 255, 0);
+  font-weight: bolder;
+}
+.text-padding {
+  width: 900px;
+}
+.img-fluid {
+  height: 500px;
+  width: 700px;
+  object-fit: fill;
+  border-radius: 15px;
+}
+.s-icons {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.dp-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.about-flex {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 50px;
+  box-shadow: -5px -3px 10px #8bb9e5, 5px 3px 10px #a9e3ff;
+}
+.child-2 {
+  color: white;
+  text-align: center;
+}
+.btn {
+  margin-top: 50px;
+  border: none;
+  font-weight: bolder;
+  color: black;
+  padding: 5px 20px;
+  border-radius: 15px;
+  background: #fdfeff;
+  box-shadow: -5px -3px 10px #8bb9e5, 5px 3px 10px #a9e3ff;
+}
+.btn:hover {
+  color: white;
+  background: black;
+  box-shadow: -5px -3px 10px #e3e8ec, 5px 3px 10px #fafbfc;
+}
+.pro-img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-top: 35px;
+}
+.project-content {
+  text-align: center;
+  color: white;
+  padding: 10px 25px;
+}
+.pro-btn-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 3px;
+}
+.pro-btn {
+  border: none;
+  border-radius: 15px;
+  padding: 8px 10px;
+  background-color: rgb(69, 69, 255);
+  color: white;
+  font-weight: bolder;
+  margin: 0px 30px;
+  cursor: pointer;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.box {
+  box-shadow: -5px -3px 5px #b1d1ee, 5px 3px 5px #b1d1ee;
+  margin-right: 5px;
+}
+.ser-btn {
+  border: none;
+  background-color: chartreuse;
+  font-weight: bolder;
+  color: black;
+  padding: 6px 24px;
+  border-radius: 7px;
+}
+.reviews {
+  box-shadow: -5px -3px 5px #f4f7f9, 5px 3px 5px #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: scroll;
+  padding: 20px 20px;
+  height: 350px;
+}
+.reviews::-webkit-scrollbar {
+  display: none;
+}
+.ratings {
+  color: white;
+  box-shadow: -5px -3px 5px #b1d1ee, 5px 3px 5px #b1d1ee;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 12px;
+}
+.dp-flex {
+  display: flex;
+  align-items: center;
+  width: 270px;
+  margin: 40px 0px;
+}
+.girl-dp {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.stars {
+  margin-left: 20px;
+}
+.bi-star-fill {
+  color: rgb(255, 255, 62);
+}
+.heading5 {
+  color: chartreuse;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 150px;
+}
+.foot-links {
+  text-decoration: none;
+  font-size: 30px;
+  color: #b2adad;
+}
+.foot-links:hover {
+  text-decoration: underline;
+  font-size: 30px;
+  color: whitesmoke;
+}
+footer {
+  background-color: rgb(20, 17, 17);
+  box-shadow: -5px -3px 5px #b1d1ee, 5px 3px 5px #b1d1ee;
+}
+.social-icons {
+  padding: 5px 500px;
+  display: flex;
+  justify-content: space-between;
+}
